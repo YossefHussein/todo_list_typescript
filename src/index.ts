@@ -53,6 +53,8 @@ const task: Task[] = loadTasks();
 task.forEach(addTaskItem);
 // to listing
 form?.addEventListener('submit', (e) => {
+  // The preventDefault() method cancels the event if it is cancelable,
+  // meaning that the default action that belongs to the event will not occur.
   e.preventDefault();
   // if the input from user are null don't do thing
   if (input?.value == '' || input?.value == null) return;
@@ -69,4 +71,4 @@ form?.addEventListener('submit', (e) => {
   input.value = '';
 });
 
-console.log('log 2')
+console.log('log 2');
