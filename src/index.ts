@@ -70,5 +70,3 @@ form?.addEventListener('submit', (e) => {
   addTaskItem(newTask);
   input.value = '';
 });
-
-console.log('log 2');
