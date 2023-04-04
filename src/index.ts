@@ -1,4 +1,4 @@
-// to make unique id
+// to make unique id for task
 import { v4 as uuidV4 } from 'uuid';
 
 // to add task
